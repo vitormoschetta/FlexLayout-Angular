@@ -1,0 +1,22 @@
+<mat-card class="container">
+    <mat-card class="child-1">1. One</mat-card>
+    <mat-card class="child-2">2. Two</mat-card>
+    <mat-card class="child-3">3. Three</mat-card>
+</mat-card>
+
+
+<div fxLayout="row">
+    <h3 style="margin-right: 1em;">Código HTML:</h3>
+    <button (click)="mostrarEsconder()" mat-mini-fab>
+        <mat-icon>exposure</mat-icon>
+    </button>
+</div>
+
+<pre *ngIf="codigo">
+    &lt;mat-card class=&quot;container&quot;&gt;
+        &lt;mat-card-title&gt;Sem Flex&lt;/mat-card-title&gt;
+        &lt;mat-card class=&quot;child-1&quot;&gt;1. One&lt;/mat-card&gt;
+        &lt;mat-card class=&quot;child-2&quot;&gt;2. Two&lt;/mat-card&gt;
+        &lt;mat-card class=&quot;child-3&quot;&gt;3. Three&lt;/mat-card&gt;
+    &lt;/mat-card&gt;
+</pre>

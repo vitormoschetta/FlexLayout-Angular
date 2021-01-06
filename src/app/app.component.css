@@ -1,0 +1,40 @@
+
+.child-1{
+    background-color: rgb(221, 199, 144);
+}
+.child-2{
+    background-color: rgb(126, 126, 212);
+}
+.child-3{
+    background-color: rgb(71, 160, 71);
+}
+
+.container{    
+    margin: 2em;   
+}
+
+
+
+pre {
+    background-color: #424242;
+    color: white;
+    margin: 2em;
+    padding: 10px;
+}
+
+hr {
+    margin-top: 3em;
+    margin-bottom: 3em; 
+    margin-left: -5em; 
+    width: 5000px;
+    border: 1px solid red;     
+}
+
+
+.line {
+    border:2px solid red;
+}
+
+h3 {
+    margin-left: 10em;
+}
